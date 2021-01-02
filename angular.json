@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "ornekListe"
+  "defaultProject": "ornekListe",
+  "cli": {
+    "analytics": false
+  }
 }
