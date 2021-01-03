@@ -9,10 +9,13 @@
             </div>
             
          </div>
-        
-
-
-        <h3 *ngIf="movies; else filmYok">{{title}}</h3>
+        <div >
+            <form class="col text-center" style="margin-bottom: 20px;margin-top: 20px;">
+                
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+        </div>
+        <h3 *ngIf="movies; else filmYok"></h3>
         <ng-template #filmYok>
             Film yoktur
         </ng-template>
@@ -26,5 +29,7 @@
                 </div>
             </div>
         </div>
+
+        
     </body>
 </html>
