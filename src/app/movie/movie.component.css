@@ -2,6 +2,8 @@ body  {
     background-color: grey;
 }
 
-.row {
-    color: pink;
+button {
+    color: green;
+    background-color: pink;
+
 }

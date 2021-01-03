@@ -11,7 +11,7 @@ export class MovieComponent implements OnInit {
   title = "Film Listesi"
   movies: any[] = [
     { id: 1, name: "Tenet (2020) ", puan: 8, categoryId: 1, description: "IMDb: 7.8 Süre:125 Dakika ", img: "https://pomelon.com.tr/wp-content/uploads/2020/02/TENET-560x800.jpg" },
-    { id: 2, name: "Gay Nihat", puan: 8, categoryId: 1, description: "Nihatın birsudan ayrıldaktan sonra yalnızlıktan dolayı gay olmasını anlatır.", img: "https://cdn.shopify.com/s/files/1/0533/2089/files/img-url-filter.jpg?v=1515074624&width=1024" },
+    { id: 2, name: "Gay Nihat", puan: 8, categoryId: 1, description: "Nihatın birsudan ayrıldaktan sonra yalnızlıktan dolayı gay olmasını anlatır.", img: "https://upload.wikimedia.org/wikipedia/tr/f/fc/Prestij_f_1.jpg" },
     { id: 1, name: "Gay Nihat", puan: 8, categoryId: 1, description: "Nihatın birsudan ayrıldaktan sonra yalnızlıktan dolayı gay olmasını anlatır.", img: "https://cdn.shopify.com/s/files/1/0533/2089/files/img-url-filter.jpg?v=1515074624&width=1024" },
     { id: 2, name: "Gay Nihat", puan: 8, categoryId: 1, description: "Nihatın birsudan ayrıldaktan sonra yalnızlıktan dolayı gay olmasını anlatır.", img: "https://cdn.shopify.com/s/files/1/0533/2089/files/img-url-filter.jpg?v=1515074624&width=1024" },
    
