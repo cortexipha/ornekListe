@@ -1,9 +1,13 @@
 body  {
-    background-color: grey;
+    background-color: darkslategrey;
 }
 
 button {
-    color: green;
-    background-color: pink;
+    color: white;
+    background-color:lightslategray;
+    border-bottom-color: lightslategray;
+    border-top-color: lightslategray;
+    border-left-color: lightslategray;
+    border-right-color: lightslategray;
 
 }
