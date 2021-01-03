@@ -17,6 +17,24 @@ export class MovieComponent implements OnInit {
    
   ]
 
+  labels: any[]=[
+    {name: "Action packed"},
+    {name: "Adventurous"},
+    {name: "Beautiful"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+    {name: "Action packed"},
+  ]
+
 
   ngOnInit(): void {
   }
