@@ -11,6 +11,20 @@
             </div>
         
          </div>
+
+         <ul>
+            <li class="box-container fiyat" data-bind="css: {applied: attributeFilters().withFilter('fiyat').appliedFilters().length}" data-load-more="False" data-search-type="search">
+            <h6>Film uzunluğu(Dakika)</h6>
+            <div class="price-range-container">
+            <div class="range-contain">
+            <div class="range-contain-row left"><input class="input free" maxlength="3" pattern="\d{3}" type="number" placeholder="En az" data-bind="value: minPrice, valueUpdate:'afterkeydown', numeric" /></div>
+            <div class="range-contain-row center">-</div>
+            <div class="range-contain-row left"><input class="input free" maxlength="3" pattern="\d{3}" type="number" placeholder="En çok" data-bind="value: minPrice, valueUpdate:'afterkeydown', numeric" /></div>
+            <div class="range-contain-row right">&nbsp;</div>
+            </div>
+            </div>
+            </li>
+            </ul>
         
          
 
@@ -26,6 +40,8 @@
                     <h5 class="card-title">{{movie.name}}</h5>
                     <p class="card-text">{{movie.description}}</p>
                     <a href="#" class="btn btn-primary">Detay</a>
+
+                    
                 </div>
             </div>
         </div>
